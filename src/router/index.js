@@ -1,42 +1,37 @@
 import { createWebHistory, createRouter } from "vue-router";
 
-import Library from "@/views/Library.vue"
+import ContactBook from "@/views/ContactBook.vue"
+import Staff from "@/views/Staff.vue"
+import Product from "@/views/Product.vue"
+import AddContact from "@/views/ContactAdd.vue"
 const routes = [
     //Trang thư viện
     {
         path: "/",
-        name: "library",
-        component: Library,
+        name: "contact",
+        component: ContactBook,
     },
 
-    // //Trang giới thiệu
-    // {
-    //     path: "/introduction",
-    //     name: "library.introduction",
-    //     component: Introduction,
-    // },
+    //Trang thêm khách hàng
+    {
+        path: "/addContact",
+        name: "contact.add",
+        component: AddContact,
+    },
 
-    // //Trang thống kê
-    // {
-    //     path: "/dataChart",
-    //     name: "library.chart",
-    //     component: DataChart,
-    // },
+    //Trang chỉnh sửa thông tin sách
+    {
+        path: "/staff",
+        name: "staff",
+        component: Staff,
+    },
 
-    // //Trang thêm sách
-    // {
-    //     path: "/addBook",
-    //     name: "library.add",
-    //     component: AddBook,
-    // },
-
-    // //Trang chỉnh sửa thông tin sách
-    // {
-    //     path: "/editBook/:id",
-    //     name: "library.edit",
-    //     component: () => import('../views/BookEdit.vue'),
-    //     props: true
-    // },
+    //Trang chỉnh sửa thông tin sách
+    {
+        path: "/product",
+        name: "product",
+        component: Product,
+    },
 ];
 
 const router = createRouter({

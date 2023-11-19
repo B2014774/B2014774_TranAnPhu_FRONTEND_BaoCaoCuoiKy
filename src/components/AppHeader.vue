@@ -15,13 +15,13 @@
                 <li class="nav-item active">
                     <router-link class="btn" to="/">Trang chủ</router-link>
                 </li>
+                <li class="nav-item">
+                    <router-link class="btn" to="/staff">Nhân viên</router-link>
+                </li>
+                <li class="nav-item">
+                    <router-link class="btn" to="/product">Mặt hàng</router-link>
+                </li>
                 <!-- <li class="nav-item">
-                    <router-link class="btn" to="/introduction">Giới thiệu</router-link>
-                </li>
-                <li class="nav-item">
-                    <router-link class="btn" to="/DataChart">Thống kê</router-link>
-                </li>
-                <li class="nav-item">
                     <router-link class="btn" to="/addProduct">Thêm sách</router-link>
                 </li>
                 <li class="nav-item">
