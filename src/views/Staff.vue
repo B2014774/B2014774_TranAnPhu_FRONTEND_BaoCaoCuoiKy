@@ -23,7 +23,6 @@ export default {
         async retrieveStaffs() {
             try {
                 this.staff = await StaffService.getAll();
-                console.log(this.staff);
             } catch (error) {
                 console.log();
             }
