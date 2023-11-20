@@ -21,10 +21,10 @@
                 <li class="nav-item">
                     <router-link class="btn" to="/product">Mặt hàng</router-link>
                 </li>
-                <!-- <li class="nav-item">
-                    <router-link class="btn" to="/addProduct">Thêm sách</router-link>
-                </li>
                 <li class="nav-item">
+                    <router-link class="btn" to="/order">Thêm sách</router-link>
+                </li>
+                <!-- <li class="nav-item">
                     <router-link class="btn" to="/test">Thống kê</router-link>
                 </li> -->
             </ul>

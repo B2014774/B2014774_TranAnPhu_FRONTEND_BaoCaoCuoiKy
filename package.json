@@ -11,6 +11,7 @@
     "axios": "^1.5.1",
     "bootstrap": "^4.6.2",
     "bootstrap-vue": "^2.23.1",
+    "boxicons": "^2.1.4",
     "chart.js": "^4.4.0",
     "jquery": "^3.7.1",
     "popper.js": "^1.16.1",

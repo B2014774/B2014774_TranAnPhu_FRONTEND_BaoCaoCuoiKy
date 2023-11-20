@@ -4,6 +4,8 @@ import ContactBook from "@/views/ContactBook.vue"
 import Staff from "@/views/Staff.vue"
 import Product from "@/views/Product.vue"
 import AddContact from "@/views/ContactAdd.vue"
+import Order from "@/views/Order.vue"
+
 const routes = [
     //Trang thư viện
     {
@@ -19,18 +21,25 @@ const routes = [
         component: AddContact,
     },
 
-    //Trang chỉnh sửa thông tin sách
+    //Trang xem thông tin nhân viên
     {
         path: "/staff",
         name: "staff",
         component: Staff,
     },
 
-    //Trang chỉnh sửa thông tin sách
+    //Trang xem thông tin hàng hóa
     {
         path: "/product",
         name: "product",
         component: Product,
+    },
+
+    //Trang xem thông tin đặt hàng
+    {
+        path: "/order",
+        name: "order",
+        component: Order,
     },
 ];
 
